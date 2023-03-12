@@ -1,0 +1,5 @@
+$variable-containing-calc: calc(0.5rem - 2px);
+
+.whatever {
+    height: calc(100% - (3 - (2 * #{$variable-containing-calc})));
+}
